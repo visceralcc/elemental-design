@@ -2,7 +2,7 @@
 
 **The objects Elemental Design works with, how they relate, and how they are parameterized**
 
-Version 0.2 | April 2026 | Charlie Denison
+Version 0.3 | April 2026 | Charlie Denison
 
 ---
 
@@ -11,6 +11,7 @@ Version 0.2 | April 2026 | Charlie Denison
 |---------|------|---------|
 | 0.1 | Apr 2026 | Initial draft. Root types, subtypes, nesting, relationships, states, parameter groups. |
 | 0.2 | Apr 2026 | Renamed product to Elemental Design. Renamed SurfaceObject protocol to ElementalObject. |
+| 0.3 | Apr 2026 | Expanded §7 with full parameter type definitions for Text, Image, Icon, Shadow, Border, Animation, and Accessibility. Added scalesWithContent to Structure. Added PaddingUnit to Padding. Updated §9 data model to match implemented code. |
 
 ---
 
@@ -148,36 +149,118 @@ Parameters that define the object's size and layout relationships.
 
 | Parameter | Applies to | Description |
 |-----------|-----------|-------------|
-| Size | All | Width and height. Set explicitly or inferred from content. |
-| Position | All | X/Y on canvas. Relative to parent if nested, absolute if root. |
-| Padding | All | Internal spacing between the object's edge and its children |
-| Spacing | Components with children | Space between direct children |
-| Alignment | Components with children | How children align on the cross axis |
-| Corner Radius | Shape, Widget | Rounding of corners |
+| Size | All | Width and height. Each dimension is either a fixed point value or "hug content" (inferred from children/text). |
+| Position | All | X/Y on canvas in points. Relative to parent if nested, absolute if root. |
+| Padding | All | Internal spacing between the object's edge and its children. Per-side values (top, leading, bottom, trailing). Supports point and relative units. |
+| Spacing | Components with children | Space between direct children (points) |
+| Alignment | Components with children | How children align on the cross axis: leading, center, or trailing |
+| Corner Radius | Shape, Widget | Rounding of corners (points) |
 | Clip | Shape | Whether children are clipped to bounds |
+| Scales with Content | All | Whether the object scales its size to fit its content. Default: on. When off, size is fixed regardless of content changes. |
 
 ### Content
 Parameters that define what the object contains or communicates.
 
 | Parameter | Applies to | Description |
 |-----------|-----------|-------------|
-| Color | All | Fill color. Supports solid, gradient, and dynamic values. |
-| Opacity | All | Overall transparency |
-| Text | Information, Widget | Text content, style role, and truncation behavior |
-| Image | Information, Shape | Image source and fit mode |
-| Icon | Information, Widget | Icon asset and size |
-| Shadow | All | Drop shadow or inner shadow |
-| Border | All | Stroke color, width, and position |
+| Color | All | Fill color. Supports solid, gradient, dynamic (adapts to light/dark mode), and none (transparent). |
+| Opacity | All | Overall transparency. Range: 0% (invisible) to 100% (fully opaque). |
+| Text | Information, Widget | See §7.1 — Text. |
+| Image | Information, Shape | See §7.2 — Image. |
+| Icon | Information, Widget | See §7.3 — Icon. |
+| Shadow | All | See §7.4 — Shadow. |
+| Border | All | See §7.5 — Border. |
 
 ### Behavior
 Parameters that define how the object responds and changes.
 
 | Parameter | Applies to | Description |
 |-----------|-----------|-------------|
-| Interaction | Widget | Tap, press, swipe, drag actions and their targets |
-| Animation | All | Transition into and out of this state |
-| Accessibility | All | Label, hint, trait declarations |
-| State | All | Which state is currently active on the canvas |
+| Interaction | Widget | Tap, press, swipe, or drag action and its target object. Target is optional — a Widget can exist with a declared action but no target assigned yet. |
+| Animation | All | See §7.6 — Animation. |
+| Accessibility | All | See §7.7 — Accessibility. |
+| State | All | Which state is currently active on the canvas. Always "Default" at creation. |
+
+---
+
+### 7.1 Text
+
+Text content, style role, and truncation behavior. Applies to Information and Widget subtypes.
+
+| Property | Values | Default | Description |
+|----------|--------|---------|-------------|
+| Content | Free text | Empty string | The text content. Control: inline text field, expands to multiline. |
+| Style Role | Display, Title, Body, Label, Mono | Body | Determines size, weight, and spacing. Control: segmented picker. |
+| Truncation | Tail, Head, Middle, Wrap | Tail | How text behaves when it exceeds available space. |
+| Max Lines | Integer or unlimited | Unlimited | Maximum number of visible lines. Unlimited means no limit. |
+
+### 7.2 Image
+
+Image source and fit mode. Applies to Information and Shape subtypes.
+
+| Property | Values | Default | Description |
+|----------|--------|---------|-------------|
+| Source | File path, asset name, or URL | Empty string | The image to display. Control: drop target + file picker button. |
+| Fit Mode | Fill, Fit, Stretch, Original | Fill | How the image fits within the object's bounds. |
+
+**Fit mode definitions:**
+
+| Mode | Behavior |
+|------|----------|
+| Fill | Scale to fill bounds, cropping if necessary. Preserves aspect ratio. |
+| Fit | Scale to fit entirely within bounds, letterboxing if necessary. Preserves aspect ratio. |
+| Stretch | Scale to fill bounds exactly. Does not preserve aspect ratio. |
+| Original | Display at original pixel size, cropping if larger than bounds. |
+
+### 7.3 Icon
+
+An icon asset and its display size. Applies to Information and Widget subtypes.
+
+| Property | Values | Default | Description |
+|----------|--------|---------|-------------|
+| Name | SF Symbol name or custom asset name | Empty string | The icon identifier. Control: searchable icon grid. |
+| Size | Points | 24pt | The display size of the icon. |
+
+### 7.4 Shadow
+
+Drop shadow or inner shadow. Applies to all object types.
+
+| Property | Values | Default | Description |
+|----------|--------|---------|-------------|
+| Color | Any color | Black at 25% opacity | The shadow color. |
+| Radius | Points (slider: 0–40pt) | 4pt | Blur radius. |
+| Offset X | Points | 0 | Horizontal offset. |
+| Offset Y | Points | 2pt | Vertical offset. |
+| Inner | On / Off | Off | Whether this is an inner shadow (inset) rather than a drop shadow. |
+
+### 7.5 Border
+
+Stroke around an object's edge. Applies to all object types.
+
+| Property | Values | Default | Description |
+|----------|--------|---------|-------------|
+| Color | Any color | Black | The stroke color. |
+| Width | Points (slider: 0–16pt) | 1pt | The stroke width. |
+| Position | Inside, Center, Outside | Inside | Where the border sits relative to the object's edge. |
+
+### 7.6 Animation
+
+Transition animation when entering or leaving a state. Applies to all object types.
+
+| Property | Values | Default | Description |
+|----------|--------|---------|-------------|
+| Preset | None, Fade, Slide, Scale | None | The animation style. Control: preset pills. |
+| Duration | Seconds | 0.3s | How long the transition takes. |
+
+### 7.7 Accessibility
+
+Accessibility declarations for assistive technologies. Applies to all object types.
+
+| Property | Values | Default | Description |
+|----------|--------|---------|-------------|
+| Label | Free text | Empty string | The accessibility label read by VoiceOver. |
+| Hint | Free text | Empty string | Additional context or usage hint for the user. |
+| Traits | Button, Link, Header, Image, Static Text, Adjustable, Search Field, Selected, Disabled | None | Traits that describe the element's role and behavior. Multiple traits can be combined. |
 
 ---
 
@@ -192,9 +275,24 @@ Elemental Design applies intelligent defaults at creation. The user sees a compo
 | Color | System background | None (transparent) | System accent |
 | Corner Radius | 12pt | 0 | 8pt |
 | Clip | On | Off | On |
+| Scales with Content | On | On | On |
 | Interaction | None | None | Tap (no target) |
+| Text | None | Empty (Body style) | None |
+| Animation | None | None | None |
+| Opacity | 100% | 100% | 100% |
 
 All defaults are overridable. None are hidden — they are visible in the Elements panel via `>>>`.
+
+### Screen defaults by platform
+
+| Platform | Width | Height |
+|----------|-------|--------|
+| iOS (iPhone) | 390pt | 844pt |
+| iOS (iPad) | 820pt | 1180pt |
+| macOS | 1280pt | 800pt |
+| Web | 1440pt | 900pt |
+
+Screens default to clip on, scales-with-content off, and system background fill.
 
 ---
 
@@ -202,10 +300,10 @@ All defaults are overridable. None are hidden — they are visible in the Elemen
 
 ```swift
 // Root protocol — every object in an Elemental Design project conforms to this
-protocol ElementalObject: Identifiable, Codable {
+protocol ElementalObject: Identifiable {
     var id: UUID { get }
     var name: String { get set }
-    var children: [any ElementalObject] { get set }
+    var children: [AnyElementalObject] { get set }
     var relationships: [Relationship] { get set }
     var parameters: ParameterGroup { get set }
 }
@@ -215,7 +313,7 @@ struct Screen: ElementalObject {
     var id: UUID
     var name: String
     var platform: Platform          // .iOS, .macOS, .web
-    var children: [any ElementalObject]
+    var children: [AnyElementalObject]
     var relationships: [Relationship]
     var parameters: ParameterGroup
 }
@@ -224,11 +322,17 @@ struct Component: ElementalObject {
     var id: UUID
     var name: String
     var subtype: ComponentSubtype   // .shape, .information, .widget
-    var states: [ComponentState]    // always contains .default
+    var states: [ComponentState]    // always contains Default
     var activeState: ComponentState
-    var children: [any ElementalObject]
+    var children: [AnyElementalObject]
     var relationships: [Relationship]
     var parameters: ParameterGroup  // parameters for the active state
+}
+
+// AnyElementalObject — type-erased wrapper for heterogeneous children arrays
+enum AnyElementalObject {
+    case screen(Screen)
+    case component(Component)
 }
 
 // Enums
@@ -236,7 +340,7 @@ enum Platform { case iOS, macOS, web }
 enum ComponentSubtype { case shape, information, widget }
 
 // State
-struct ComponentState: Identifiable, Codable {
+struct ComponentState {
     var id: UUID
     var name: String                // "Default", "Hover", "Pressed", or custom
     var isBuiltIn: Bool
@@ -244,7 +348,7 @@ struct ComponentState: Identifiable, Codable {
 }
 
 // Relationship
-struct Relationship: Codable {
+struct Relationship {
     var kind: RelationshipKind
     var sourceID: UUID
     var targetID: UUID
@@ -252,6 +356,44 @@ struct Relationship: Codable {
 }
 
 enum RelationshipKind { case contains, triggers, sharesState, follows }
+
+// ParameterGroup
+struct ParameterGroup {
+    var structure: StructureParameters
+    var content: ContentParameters
+    var behavior: BehaviorParameters
+}
+
+// Structure
+struct StructureParameters {
+    var size: SizeParameter         // .fixed(CGFloat) or .hugContent per dimension
+    var position: PositionParameter // x, y in points
+    var padding: ElementalEdgeInsets // per-side, with unit (.pt or .relative)
+    var spacing: CGFloat
+    var alignment: ElementalAlignment // .leading, .center, .trailing
+    var cornerRadius: CGFloat
+    var clip: Bool
+    var scalesWithContent: Bool
+}
+
+// Content
+struct ContentParameters {
+    var color: ColorParameter       // fill: .none, .solid, .gradient, .dynamic
+    var opacity: Double
+    var text: TextParameter?        // §7.1
+    var image: ImageParameter?      // §7.2
+    var icon: IconParameter?        // §7.3
+    var shadow: ShadowParameter?    // §7.4
+    var border: BorderParameter?    // §7.5
+}
+
+// Behavior
+struct BehaviorParameters {
+    var interaction: InteractionParameter?  // action + optional targetID
+    var animation: AnimationParameter       // §7.6
+    var accessibility: AccessibilityParameter // §7.7
+    var activeStateName: String
+}
 ```
 
 ---

@@ -2,7 +2,7 @@
 
 **The canvas surface, navigation, selection, object placement, and the parameter picker**
 
-Version 0.2 | April 2026 | Charlie Denison
+Version 0.1 | April 2026 | Charlie Denison
 
 ---
 
@@ -10,7 +10,6 @@ Version 0.2 | April 2026 | Charlie Denison
 | Version | Date | Changes |
 |---------|------|---------|
 | 0.1 | Apr 2026 | Initial draft. Canvas surface, zoom/pan, selection, object placement, parameter picker, preview mode, gesture drawing. |
-| 0.2 | Apr 2026 | Renamed product to Elemental Design throughout. |
 
 ---
 
@@ -30,7 +29,7 @@ The Canvas is the primary workspace in Elemental Design. It is where objects are
 
 ## 2. The Canvas Surface
 
-The canvas is a large bounded workspace. It is not infinite — it has defined extents — but the working area is large enough that it does not feel constrained during normal use.
+The canvas is a large bounded workspace. It is not infinite — it has a defined extents — but the working area is large enough that it does not feel constrained during normal use.
 
 ### Why bounded
 Elemental Design is not a general illustration tool. Every object on the canvas is either a Screen (a specific device size) or a Component (a specific element). The bounded canvas reinforces that the work has a frame of reference — a real screen or a real component — rather than an abstract infinite space.

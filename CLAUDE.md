@@ -1,4 +1,4 @@
-# Elemental Design — Claude Code Entry Point 
+# Elemental Design — Claude Code Entry Point
 
 You are working on **Elemental Design**, a native macOS and iOS design tool built in SwiftUI.
 Read this file first. It tells you how this project is organized and how to work in it.

@@ -1,0 +1,61 @@
+{
+  "": {
+    "swift-dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/primary.swiftdeps"
+  },
+  "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Component.swift": {
+    "dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Component.d",
+    "object": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Component.swift.o",
+    "swiftmodule": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Component~partial.swiftmodule",
+    "swift-dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Component.swiftdeps",
+    "diagnostics": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Component.dia"
+  },
+  "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentState.swift": {
+    "dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentState.d",
+    "object": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentState.swift.o",
+    "swiftmodule": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentState~partial.swiftmodule",
+    "swift-dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentState.swiftdeps",
+    "diagnostics": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentState.dia"
+  },
+  "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentSubtype.swift": {
+    "dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentSubtype.d",
+    "object": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentSubtype.swift.o",
+    "swiftmodule": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentSubtype~partial.swiftmodule",
+    "swift-dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentSubtype.swiftdeps",
+    "diagnostics": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentSubtype.dia"
+  },
+  "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ElementalObject.swift": {
+    "dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementalObject.d",
+    "object": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementalObject.swift.o",
+    "swiftmodule": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementalObject~partial.swiftmodule",
+    "swift-dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementalObject.swiftdeps",
+    "diagnostics": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementalObject.dia"
+  },
+  "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ParameterGroup.swift": {
+    "dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ParameterGroup.d",
+    "object": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ParameterGroup.swift.o",
+    "swiftmodule": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ParameterGroup~partial.swiftmodule",
+    "swift-dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ParameterGroup.swiftdeps",
+    "diagnostics": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ParameterGroup.dia"
+  },
+  "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Platform.swift": {
+    "dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Platform.d",
+    "object": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Platform.swift.o",
+    "swiftmodule": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Platform~partial.swiftmodule",
+    "swift-dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Platform.swiftdeps",
+    "diagnostics": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Platform.dia"
+  },
+  "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Relationship.swift": {
+    "dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Relationship.d",
+    "object": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Relationship.swift.o",
+    "swiftmodule": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Relationship~partial.swiftmodule",
+    "swift-dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Relationship.swiftdeps",
+    "diagnostics": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Relationship.dia"
+  },
+  "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Screen.swift": {
+    "dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Screen.d",
+    "object": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Screen.swift.o",
+    "swiftmodule": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Screen~partial.swiftmodule",
+    "swift-dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Screen.swiftdeps",
+    "diagnostics": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Screen.dia"
+  }
+}

@@ -2,7 +2,7 @@
 
 **The persistent AI collaborator — input modes, behavior, authorship, and API integration**
 
-Version 0.2 | April 2026 | Charlie Denison
+Version 0.1 | April 2026 | Charlie Denison
 
 ---
 
@@ -10,7 +10,6 @@ Version 0.2 | April 2026 | Charlie Denison
 | Version | Date | Changes |
 |---------|------|---------|
 | 0.1 | Apr 2026 | Initial draft. Agent panel behavior, three input modes, proactivity model, authorship distinction, API integration, future AI provider selection. |
-| 0.2 | Apr 2026 | Renamed product to Elemental Design throughout. |
 
 ---
 
@@ -105,7 +104,7 @@ Canvas gestures are ephemeral — the sketch disappears once the Agent has proce
 
 **What the Agent does not interpret from gestures alone:**
 - Specific colors, exact dimensions, or font choices — these require text or voice
-- Precise alignment — the Agent will make a reasonable call and flag it for review
+- Precise alignment — the Agent will make a reasonable call and surface it for review
 
 router→ Spec_Canvas.md — canvas gesture mode, activation, drawing tools
 
@@ -113,7 +112,7 @@ router→ Spec_Canvas.md — canvas gesture mode, activation, drawing tools
 
 ## 4. What the Agent Can Do
 
-The Agent has full read and write access to the Elemental Design object model. It can:
+The Agent has full read and write access to the Surface object model. It can:
 
 | Action | Example |
 |--------|---------|

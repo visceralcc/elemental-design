@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/primary.swiftdeps"
+  },
+  "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/runner.d",
+    "object": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/runner.dia"
+  }
+}

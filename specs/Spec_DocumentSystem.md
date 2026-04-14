@@ -2,7 +2,7 @@
 
 **The router→ convention, spec file structure, and component doc generation**
 
-Version 0.2 | April 2026 | Charlie Denison
+Version 0.1 | April 2026 | Charlie Denison
 
 ---
 
@@ -10,7 +10,6 @@ Version 0.2 | April 2026 | Charlie Denison
 | Version | Date | Changes |
 |---------|------|---------|
 | 0.1 | Apr 2026 | Initial draft. Defines router→ syntax, spec file rules, component doc system. |
-| 0.2 | Apr 2026 | Renamed product to Elemental Design throughout. |
 
 ---
 
@@ -97,7 +96,7 @@ Version | Date | Author
 
 ## 4. Component Doc Files
 
-Component docs are a **product feature**, not dev documentation. Elemental Design generates them automatically when a user creates a Component. They are the component's living record — readable by AI agents, developers, and Elemental Design itself.
+Component docs are a **product feature**, not dev documentation. Elemental Design generates them automatically when a user creates a Component. They are the component's living record — readable by AI agents, developers, and the Elemental Design tool itself.
 
 ### Location
 Generated alongside the project file the user is working in. Path is user-controlled.

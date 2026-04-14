@@ -1,0 +1,735 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.xctest/Contents/MacOS/ElementalDesignPackageTests",
+      "packagePath" : "/Users/charliedenison-mini/dev/elemental-design",
+      "productName" : "ElementalDesignPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.ElementalDesign-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/sources",
+      "importPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Component.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentSubtype.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ElementalObject.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ParameterGroup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Platform.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Relationship.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Screen.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ElementalDesign",
+      "moduleOutputPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules/ElementalDesign.swiftmodule",
+      "objects" : [
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Component.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentState.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentSubtype.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementalObject.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ParameterGroup.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Platform.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Relationship.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Screen.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/include/ElementalDesign-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "elemental_design"
+      ],
+      "outputFileMapPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Component.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentSubtype.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementalObject.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ParameterGroup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Platform.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Relationship.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Screen.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules/ElementalDesign.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Component.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentState.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentSubtype.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ElementalObject.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ParameterGroup.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Platform.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Relationship.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Screen.swift"
+      ],
+      "tempsPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ElementalDesignPackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/sources",
+      "importPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules/ElementalDesignTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ElementalDesignPackageTests",
+      "moduleOutputPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules/ElementalDesignPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/include/ElementalDesignPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "elemental_design"
+      ],
+      "outputFileMapPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules/ElementalDesignPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ElementalDesignTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignTests.build/sources",
+      "importPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesignTests/ObjectModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules/ElementalDesign.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "ElementalDesignTests",
+      "moduleOutputPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules/ElementalDesignTests.swiftmodule",
+      "objects" : [
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignTests.build/ObjectModelTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "elemental_design"
+      ],
+      "outputFileMapPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignTests.build/ObjectModelTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules/ElementalDesignTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesignTests/ObjectModelTests.swift"
+      ],
+      "tempsPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "ElementalDesign" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ElementalDesign",
+      "-package-name",
+      "elemental_design",
+      "-c",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Component.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentState.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentSubtype.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ElementalObject.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ParameterGroup.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Platform.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Relationship.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Screen.swift",
+      "-I",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/include/ElementalDesign-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "elemental_design",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ElementalDesignPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ElementalDesignPackageTests",
+      "-package-name",
+      "elemental_design",
+      "-c",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/include/ElementalDesignPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "elemental_design",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "ElementalDesignTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ElementalDesignTests",
+      "-package-name",
+      "elemental_design",
+      "-c",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesignTests/ObjectModelTests.swift",
+      "-I",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "elemental_design",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "ElementalDesign" : [
+
+    ],
+    "ElementalDesignPackageTests" : [
+      "ElementalDesignTests",
+      "ElementalDesign"
+    ],
+    "ElementalDesignTests" : [
+      "ElementalDesign"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Component.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentSubtype.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ElementalObject.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ParameterGroup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Platform.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Relationship.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Screen.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/sources"
+    },
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/sources"
+    },
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Component.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentSubtype.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementalObject.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ParameterGroup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Platform.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Relationship.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Screen.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignTests.build/ObjectModelTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesignTests/ObjectModelTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignTests.build/sources"
+    },
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

@@ -1,8 +1,4 @@
-# Elemental Design — Claude Code Handoff Prompt
 
-Copy and paste this entire prompt into a new Claude Code session.
-
----
 
 You are starting work on **Elemental Design** — a native macOS and iOS design tool built in SwiftUI. This is a clean Swift project. There is no existing code yet.
 

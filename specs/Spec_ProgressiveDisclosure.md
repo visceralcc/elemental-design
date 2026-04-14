@@ -2,7 +2,7 @@
 
 **How complexity is revealed in the Elements panel — the >>> pattern and three-level control model**
 
-Version 0.2 | April 2026 | Charlie Denison
+Version 0.1 | April 2026 | Charlie Denison
 
 ---
 
@@ -10,7 +10,6 @@ Version 0.2 | April 2026 | Charlie Denison
 | Version | Date | Changes |
 |---------|------|---------|
 | 0.1 | Apr 2026 | Initial draft. Row expansion, multi-expand, three-level control model, control types per parameter. |
-| 0.2 | Apr 2026 | Renamed product to Elemental Design throughout. |
 
 ---
 
@@ -151,7 +150,7 @@ A text input field showing the current value in points (or the appropriate unit)
 
 | Level | Control | When to use |
 |-------|---------|-------------|
-| 1 — Auto | Pill / toggle | Let Elemental Design decide |
+| 1 — Auto | Pill / toggle | Let Surface decide |
 | 2 — Slider | Continuous slider + readout | Fast, approximate adjustment |
 | 3 — Exact | Text input field | Precise, intentional values |
 
