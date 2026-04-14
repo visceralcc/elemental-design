@@ -37,12 +37,12 @@ elemental-design/
 │   ├── Spec_ProgressiveDisclosure.md ← the >>> pattern and control model
 │   ├── Spec_Agent.md                 ← AI collaborator behavior
 │   ├── Spec_Canvas.md                ← canvas, selection, placement
-│   ├── Spec_Panels.md                ← (not yet written)
-│   ├── Spec_ModeBar.md               ← (not yet written)
+│   ├── Spec_Panels.md                ← three-panel layout, resize, empty states
+│   ├── Spec_ModeBar.md               ← mode switching, tab behavior
 │   ├── Spec_ComponentDocs.md         ← (not yet written)
 │   ├── Spec_PreviewMode.md           ← (not yet written)
 │   ├── Spec_ElementMap.md            ← (not yet written)
-│   └── Spec_DesignSystem.md          ← (not yet written)
+│   └── Spec_DesignSystem.md          ← color, typography, spacing tokens
 ├── ElementalDesign/                  ← SwiftUI app source
 │   ├── DesignSystem/                 ← tokens, components, modifiers
 │   ├── Models/                       ← data model layer

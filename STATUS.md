@@ -82,7 +82,7 @@ The data model layer from `Spec_ObjectModel.md` is fully implemented. All specs 
 - **Any UI** — No SwiftUI views, no panels, no canvas.
 - **Agent integration** — No API calls, no system prompt generation.
 - **Persistence** — No file save/load beyond Codable conformance.
-- **Specs not yet written** — Panels, ModeBar, ComponentDocs, PreviewMode, ElementMap, DesignSystem.
+- **Specs not yet written** — ComponentDocs, PreviewMode, ElementMap.
 
 ---
 
@@ -100,6 +100,5 @@ All specs now use "Elemental Design" naming consistently. The following changes 
 
 ## Next Steps (Suggested)
 
-1. Draft `Spec_Panels.md` — the three-panel layout, Elements panel behavior, empty states, resize rules. This is the bottleneck for any UI work.
-2. Build the UI shell — three-panel layout with the Elements panel and `>>>` expansion pattern.
-3. Remaining unwritten specs: ModeBar, ComponentDocs, PreviewMode, ElementMap, DesignSystem.
+1. Build the UI shell — three-panel layout with mode bar, empty states, and `>>>` expansion pattern. Handoff prompt ready at `handoff_claudecode/Handoff_ClaudeCode_UIShell.md`.
+2. Remaining unwritten specs: ComponentDocs, PreviewMode, ElementMap.
