@@ -7,7 +7,118 @@
     }
   ],
   "copyCommands" : {
-
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/Barlow-Bold.ttf" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Resources/Fonts/Barlow-Bold.ttf"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/Barlow-Bold.ttf"
+        }
+      ]
+    },
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/Barlow-Light.ttf" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Resources/Fonts/Barlow-Light.ttf"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/Barlow-Light.ttf"
+        }
+      ]
+    },
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/Barlow-Medium.ttf" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Resources/Fonts/Barlow-Medium.ttf"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/Barlow-Medium.ttf"
+        }
+      ]
+    },
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/Barlow-SemiBold.ttf" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Resources/Fonts/Barlow-SemiBold.ttf"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/Barlow-SemiBold.ttf"
+        }
+      ]
+    },
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/BarlowCondensed-Light.ttf" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Resources/Fonts/BarlowCondensed-Light.ttf"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/BarlowCondensed-Light.ttf"
+        }
+      ]
+    },
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/BarlowCondensed-Medium.ttf" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Resources/Fonts/BarlowCondensed-Medium.ttf"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/BarlowCondensed-Medium.ttf"
+        }
+      ]
+    },
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/Volkhov-BoldItalic.ttf" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Resources/Fonts/Volkhov-BoldItalic.ttf"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/Volkhov-BoldItalic.ttf"
+        }
+      ]
+    },
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/Volkhov-Regular.ttf" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Resources/Fonts/Volkhov-Regular.ttf"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign_ElementalDesign.bundle/Volkhov-Regular.ttf"
+        }
+      ]
+    }
   },
   "explicitTargetDependencyImportCheckingMode" : {
     "none" : {
@@ -22,13 +133,53 @@
   ],
   "swiftCommands" : {
     "C.ElementalDesign-arm64-apple-macosx-debug.module" : {
-      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
       "fileList" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/sources",
       "importPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules",
       "inputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Component.swift"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Agent/ActionButtonView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Agent/AgentEmptyStateView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Agent/AgentInputBarView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/AppRootView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/AppState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Canvas/CanvasEmptyStateView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/DesignSystem/Colors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/DesignSystem/Tokens.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/DesignSystem/Typography.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/ModeBar/ModeBarView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/ModeBar/ModePillButton.swift"
         },
         {
           "kind" : "file",
@@ -36,11 +187,11 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentSubtype.swift"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ElementalObject.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ElementalObject.swift"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Enums.swift"
         },
         {
           "kind" : "file",
@@ -48,19 +199,59 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Platform.swift"
-        },
-        {
-          "kind" : "file",
           "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Relationship.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Screen.swift"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/AgentPanelView.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/CanvasPanelView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/CodePanelContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/CollapsedRailView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/ElementsEmptyStateView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/ElementsPanelView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/PanelLayoutView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/PanelTabView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/ResizeHandleView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/SettingsPanelContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<ElementalDesign-arm64-apple-macosx-debug.module-resources>"
         },
         {
           "kind" : "file",
@@ -71,14 +262,252 @@
       "moduleName" : "ElementalDesign",
       "moduleOutputPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules/ElementalDesign.swiftmodule",
       "objects" : [
-        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Component.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ActionButtonView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AgentEmptyStateView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AgentInputBarView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AppRootView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AppState.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CanvasEmptyStateView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Colors.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Tokens.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Typography.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ModeBarView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ModePillButton.swift.o",
         "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentState.swift.o",
-        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentSubtype.swift.o",
         "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementalObject.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Enums.swift.o",
         "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ParameterGroup.swift.o",
-        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Platform.swift.o",
         "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Relationship.swift.o",
-        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Screen.swift.o"
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AgentPanelView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CanvasPanelView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CodePanelContentView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CollapsedRailView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementsEmptyStateView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementsPanelView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/PanelLayoutView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/PanelTabView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ResizeHandleView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/SettingsPanelContentView.swift.o",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-module-cache-path",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/include/ElementalDesign-Swift.h",
+        "-swift-version",
+        "5",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "elemental_design"
+      ],
+      "outputFileMapPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ActionButtonView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AgentEmptyStateView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AgentInputBarView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AppRootView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AppState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CanvasEmptyStateView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Colors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Tokens.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Typography.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ModeBarView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ModePillButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementalObject.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Enums.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ParameterGroup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Relationship.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AgentPanelView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CanvasPanelView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CodePanelContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CollapsedRailView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementsEmptyStateView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementsPanelView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/PanelLayoutView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/PanelTabView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ResizeHandleView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/SettingsPanelContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules/ElementalDesign.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Agent/ActionButtonView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Agent/AgentEmptyStateView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Agent/AgentInputBarView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/AppRootView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/AppState.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Canvas/CanvasEmptyStateView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/DesignSystem/Colors.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/DesignSystem/Tokens.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/DesignSystem/Typography.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/ModeBar/ModeBarView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/ModeBar/ModePillButton.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentState.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ElementalObject.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Enums.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ParameterGroup.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Relationship.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/AgentPanelView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/CanvasPanelView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/CodePanelContentView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/CollapsedRailView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/ElementsEmptyStateView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/ElementsPanelView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/PanelLayoutView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/PanelTabView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/ResizeHandleView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/SettingsPanelContentView.swift",
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.ElementalDesignApp-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignApp.build/sources",
+      "importPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesignApp/ElementalDesignApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules/ElementalDesign.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignApp.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "ElementalDesignApp",
+      "moduleOutputPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules/ElementalDesignApp.swiftmodule",
+      "objects" : [
+        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignApp.build/ElementalDesignApp.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -97,31 +526,26 @@
         "-module-cache-path",
         "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ModuleCache",
         "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "ElementalDesignApp_main",
         "-parse-as-library",
-        "-emit-objc-header",
-        "-emit-objc-header-path",
-        "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/include/ElementalDesign-Swift.h",
         "-swift-version",
         "5",
-        "-plugin-path",
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
-        "-sdk",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
-        "-F",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
         "-I",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
         "-L",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
         "-g",
         "-Xcc",
         "-isysroot",
         "-Xcc",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
-        "-Xcc",
-        "-F",
-        "-Xcc",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
         "-Xcc",
         "-fPIC",
         "-Xcc",
@@ -129,61 +553,26 @@
         "-package-name",
         "elemental_design"
       ],
-      "outputFileMapPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/output-file-map.json",
+      "outputFileMapPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignApp.build/output-file-map.json",
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Component.swift.o"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignApp.build/ElementalDesignApp.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentState.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentSubtype.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementalObject.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ParameterGroup.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Platform.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Relationship.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Screen.swift.o"
-        },
-        {
-          "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules/ElementalDesign.swiftmodule"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules/ElementalDesignApp.swiftmodule"
         }
       ],
       "prepareForIndexing" : false,
       "sources" : [
-        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Component.swift",
-        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentState.swift",
-        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentSubtype.swift",
-        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ElementalObject.swift",
-        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ParameterGroup.swift",
-        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Platform.swift",
-        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Relationship.swift",
-        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Screen.swift"
+        "/Users/charliedenison-mini/dev/elemental-design/ElementalDesignApp/ElementalDesignApp.swift"
       ],
-      "tempsPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build",
+      "tempsPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignApp.build",
       "wholeModuleOptimization" : false
     },
     "C.ElementalDesignPackageTests-arm64-apple-macosx-debug.module" : {
-      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
       "fileList" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/sources",
       "importPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules",
       "inputs" : [
@@ -193,7 +582,7 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
         },
         {
           "kind" : "file",
@@ -233,25 +622,19 @@
         "-emit-objc-header",
         "-emit-objc-header-path",
         "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/include/ElementalDesignPackageTests-Swift.h",
-        "-plugin-path",
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
-        "-sdk",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
-        "-F",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
         "-I",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
         "-L",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
         "-g",
         "-Xcc",
         "-isysroot",
         "-Xcc",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
-        "-Xcc",
-        "-F",
-        "-Xcc",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
         "-Xcc",
         "-fPIC",
         "-Xcc",
@@ -278,7 +661,7 @@
       "wholeModuleOptimization" : false
     },
     "C.ElementalDesignTests-arm64-apple-macosx-debug.module" : {
-      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
       "fileList" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignTests.build/sources",
       "importPath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules",
       "inputs" : [
@@ -288,7 +671,7 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
         },
         {
           "kind" : "file",
@@ -327,25 +710,19 @@
         "-parse-as-library",
         "-swift-version",
         "5",
-        "-plugin-path",
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
-        "-sdk",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
-        "-F",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
         "-I",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
         "-L",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
         "-g",
         "-Xcc",
         "-isysroot",
         "-Xcc",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
-        "-Xcc",
-        "-F",
-        "-Xcc",
-        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
         "-Xcc",
         "-fPIC",
         "-Xcc",
@@ -377,20 +754,93 @@
   },
   "swiftTargetScanArgs" : {
     "ElementalDesign" : [
-      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
       "-module-name",
       "ElementalDesign",
       "-package-name",
       "elemental_design",
       "-c",
-      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Component.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Agent/ActionButtonView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Agent/AgentEmptyStateView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Agent/AgentInputBarView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/AppRootView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/AppState.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Canvas/CanvasEmptyStateView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/DesignSystem/Colors.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/DesignSystem/Tokens.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/DesignSystem/Typography.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/ModeBar/ModeBarView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/ModeBar/ModePillButton.swift",
       "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentState.swift",
-      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentSubtype.swift",
       "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ElementalObject.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Enums.swift",
       "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ParameterGroup.swift",
-      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Platform.swift",
       "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Relationship.swift",
-      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Screen.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/AgentPanelView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/CanvasPanelView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/CodePanelContentView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/CollapsedRailView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/ElementsEmptyStateView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/ElementsPanelView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/PanelLayoutView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/PanelTabView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/ResizeHandleView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/SettingsPanelContentView.swift",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-module-cache-path",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/include/ElementalDesign-Swift.h",
+      "-swift-version",
+      "5",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "elemental_design",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "ElementalDesignApp" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "ElementalDesignApp",
+      "-package-name",
+      "elemental_design",
+      "-c",
+      "/Users/charliedenison-mini/dev/elemental-design/ElementalDesignApp/ElementalDesignApp.swift",
       "-I",
       "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/Modules",
       "-target",
@@ -409,31 +859,26 @@
       "-module-cache-path",
       "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ModuleCache",
       "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "ElementalDesignApp_main",
       "-parse-as-library",
-      "-emit-objc-header",
-      "-emit-objc-header-path",
-      "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/include/ElementalDesign-Swift.h",
       "-swift-version",
       "5",
-      "-plugin-path",
-      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
-      "-sdk",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
-      "-F",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
       "-I",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
       "-L",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
       "-g",
       "-Xcc",
       "-isysroot",
       "-Xcc",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
-      "-Xcc",
-      "-F",
-      "-Xcc",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
       "-Xcc",
       "-fPIC",
       "-Xcc",
@@ -441,10 +886,10 @@
       "-package-name",
       "elemental_design",
       "-driver-use-frontend-path",
-      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
     ],
     "ElementalDesignPackageTests" : [
-      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
       "-module-name",
       "ElementalDesignPackageTests",
       "-package-name",
@@ -475,25 +920,19 @@
       "-emit-objc-header",
       "-emit-objc-header-path",
       "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/include/ElementalDesignPackageTests-Swift.h",
-      "-plugin-path",
-      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
-      "-sdk",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
-      "-F",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
       "-I",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
       "-L",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
       "-g",
       "-Xcc",
       "-isysroot",
       "-Xcc",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
-      "-Xcc",
-      "-F",
-      "-Xcc",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
       "-Xcc",
       "-fPIC",
       "-Xcc",
@@ -501,10 +940,10 @@
       "-package-name",
       "elemental_design",
       "-driver-use-frontend-path",
-      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
     ],
     "ElementalDesignTests" : [
-      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
       "-module-name",
       "ElementalDesignTests",
       "-package-name",
@@ -534,25 +973,19 @@
       "-parse-as-library",
       "-swift-version",
       "5",
-      "-plugin-path",
-      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
-      "-sdk",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
-      "-F",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
       "-I",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
       "-L",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
       "-g",
       "-Xcc",
       "-isysroot",
       "-Xcc",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
-      "-Xcc",
-      "-F",
-      "-Xcc",
-      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
       "-Xcc",
       "-fPIC",
       "-Xcc",
@@ -560,12 +993,15 @@
       "-package-name",
       "elemental_design",
       "-driver-use-frontend-path",
-      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
     ]
   },
   "targetDependencyMap" : {
     "ElementalDesign" : [
 
+    ],
+    "ElementalDesignApp" : [
+      "ElementalDesign"
     ],
     "ElementalDesignPackageTests" : [
       "ElementalDesignTests",
@@ -606,7 +1042,47 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Component.swift"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Agent/ActionButtonView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Agent/AgentEmptyStateView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Agent/AgentInputBarView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/AppRootView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/AppState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Canvas/CanvasEmptyStateView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/DesignSystem/Colors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/DesignSystem/Tokens.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/DesignSystem/Typography.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/ModeBar/ModeBarView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/ModeBar/ModePillButton.swift"
         },
         {
           "kind" : "file",
@@ -614,11 +1090,11 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ComponentSubtype.swift"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ElementalObject.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/ElementalObject.swift"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Enums.swift"
         },
         {
           "kind" : "file",
@@ -626,18 +1102,204 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Platform.swift"
-        },
-        {
-          "kind" : "file",
           "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Relationship.swift"
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Models/Screen.swift"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/AgentPanelView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/CanvasPanelView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/CodePanelContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/CollapsedRailView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/ElementsEmptyStateView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/ElementsPanelView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/PanelLayoutView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/PanelTabView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/ResizeHandleView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesign/Panels/SettingsPanelContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/DerivedSources/resource_bundle_accessor.swift"
         }
       ],
       "outputFilePath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/sources"
+    },
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignApp-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignApp-entitlement.plist"
+    },
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignApp.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/ElementalDesignApp/ElementalDesignApp.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignApp.build/sources"
+    },
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignApp.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ActionButtonView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AgentEmptyStateView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AgentInputBarView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AgentPanelView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AppRootView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AppState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CanvasEmptyStateView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CanvasPanelView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CodePanelContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CollapsedRailView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Colors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementalObject.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementsEmptyStateView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementsPanelView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Enums.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ModeBarView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ModePillButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/PanelLayoutView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/PanelTabView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ParameterGroup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Relationship.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ResizeHandleView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/SettingsPanelContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Tokens.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Typography.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignApp.build/ElementalDesignApp.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignApp.product/Objects.LinkFileList"
     },
     "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignPackageTests.build/sources" : {
       "alwaysOutOfDate" : false,
@@ -662,7 +1324,47 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Component.swift.o"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ActionButtonView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AgentEmptyStateView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AgentInputBarView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AgentPanelView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AppRootView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/AppState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CanvasEmptyStateView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CanvasPanelView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CodePanelContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/CollapsedRailView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Colors.swift.o"
         },
         {
           "kind" : "file",
@@ -670,11 +1372,35 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ComponentSubtype.swift.o"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementalObject.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementalObject.swift.o"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementsEmptyStateView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ElementsPanelView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Enums.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ModeBarView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ModePillButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/PanelLayoutView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/PanelTabView.swift.o"
         },
         {
           "kind" : "file",
@@ -682,15 +1408,27 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Platform.swift.o"
-        },
-        {
-          "kind" : "file",
           "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Relationship.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Screen.swift.o"
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/ResizeHandleView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/SettingsPanelContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Tokens.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/Typography.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesign.build/resource_bundle_accessor.swift.o"
         },
         {
           "kind" : "file",
@@ -717,7 +1455,7 @@
       ],
       "outputFilePath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/ElementalDesignTests.build/sources"
     },
-    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+    "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
       "alwaysOutOfDate" : true,
       "inputs" : [
         {
@@ -726,10 +1464,10 @@
         },
         {
           "kind" : "file",
-          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
         }
       ],
-      "outputFilePath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+      "outputFilePath" : "/Users/charliedenison-mini/dev/elemental-design/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
     }
   }
 }
