@@ -28,15 +28,7 @@ struct ModePillButton: View {
                     .foregroundColor(isActive ? .textPrimary : .textMuted)
                     .lineLimit(1)
             }
-            // Active underline — 2pt line below the label
-            .overlay(alignment: .bottom) {
-                if isActive {
-                    Rectangle()
-                        .fill(Color.brandCyanPill)
-                        .frame(height: 2)
-                        .offset(y: 4)
-                }
-            }
+
         }
         .buttonStyle(.plain)
         // Cmd+Shift+[1…5] — Spec_ModeBar.md §3

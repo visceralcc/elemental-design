@@ -87,7 +87,7 @@ public enum PanelWidth {
 // Source of truth: Spec_ModeBar.md §2
 
 public enum ModeBarHeight {
-    public static let macOS: CGFloat = 44
+    public static let macOS: CGFloat = 93
     public static let iOS: CGFloat   = 48
 }
 

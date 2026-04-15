@@ -45,7 +45,8 @@ public struct ModeBarView: View {
             WordmarkView()
                 .padding(.trailing, Spacing.lg)
         }
-        .frame(height: barHeight)
+        .padding(.top, 11)
+        .padding(.bottom, 22)
         .background(Color.surfaceTopBar)
         // Keyboard shortcuts for panel collapse are wired here so they are
         // always active regardless of which view has focus.
