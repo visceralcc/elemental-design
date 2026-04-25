@@ -39,8 +39,7 @@ struct ComponentRowView: View {
 }
 
 // MARK: - OptionsArrowsPill
-// The >>> pill button. Shows 3 right-pointing triangles (active state: cyan fill).
-// Passive state has no background fill; hover/active gets brandCyanHighlight.
+// The >>> pill button. Shows 3 right-pointing triangles (active: cyan fill).
 // Figma: node 4:486 passive / 4:488 hover (ButtonOptionsArrows)
 
 private struct OptionsArrowsPill: View {
@@ -50,16 +49,12 @@ private struct OptionsArrowsPill: View {
     var body: some View {
         Button(action: action) {
             HStack(spacing: 0.8) {
-                if isExpanded {
-                    // ^^^ — three up-pointing triangles
-                    ForEach(0..<3, id: \.self) { _ in
+                ForEach(0..<3, id: \.self) { _ in
+                    if isExpanded {
                         UpTriangle()
                             .fill(Color.textPrimary)
                             .frame(width: 6.6, height: 7.4)
-                    }
-                } else {
-                    // >>> — three right-pointing triangles
-                    ForEach(0..<3, id: \.self) { _ in
+                    } else {
                         RightTriangle()
                             .fill(Color.textPrimary)
                             .frame(width: 6.6, height: 7.4)
